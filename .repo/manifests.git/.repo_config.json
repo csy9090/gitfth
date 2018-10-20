@@ -2,10 +2,16 @@
   "core.repositoryformatversion": [
     "0"
   ], 
-  "core.bare": [
-    "true"
-  ], 
   "core.filemode": [
     "true"
+  ], 
+  "remote.origin.url": [
+    "https://github.com/csy9090/gitfth.git"
+  ], 
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ], 
+  "remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
   ]
 }
